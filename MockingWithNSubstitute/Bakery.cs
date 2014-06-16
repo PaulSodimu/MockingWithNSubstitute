@@ -24,7 +24,7 @@ namespace MockingWithNSubstitute
             return bread;
         }
 
-        private Bread Bake(Dough theDough)
+        public Bread Bake(Dough theDough)
         {
             Bread someBread = null;
 
